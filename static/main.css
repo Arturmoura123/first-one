@@ -1,0 +1,52 @@
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 0; /* Remove border radius */
+    font-size: 1.5rem; /* Adjust font size */
+    padding: 5px; /* Adjust padding for button size */
+    position: absolute; /* Position buttons absolutely */
+    top: 50%; /* Vertically center buttons */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    width: 70px; /* Adjust button width */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+
+/* Inside your main.css file */
+.description h1 {
+    font-size: 28px; /* Adjust the size to your preference */
+    font-weight: bold; /* Add text boldness if needed */
+    padding-bottom: 20px; /* Adjust the padding as needed */
+
+}
+
+
+.description p {
+    font-size: 20px; /* Adjust the size to your preference */
+    line-height: 1.3; /* Adjust line height for paragraph text */
+    font-family: Calibri, sans-serif;
+    margin-bottom: 40px;
+}
+
+
+
+/* Inside your main.css file */
+.description .btn {
+    margin-top: 40px; /* Adjust the margin as needed to create separation */
+    margin-bottom: 40px; /* Add margin to the bottom to create space between the button and the last line */
+    padding: 10px 40px
+}
+
+/* Inside your main.css file */
+.btn.btn-primary {
+    width: 400px; /* Adjust the width as needed */
+}
+
+
+
+
